@@ -1,0 +1,75 @@
+body{
+background-image: url(http://images.fineartamerica.com/images-medium-large-5/austin-texas-skyline-michael-tompsett.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family:
+    myFirstFont;
+  src:
+    url(Raleway_Thin.otf)
+}
+
+  
+input[type=submit] {
+    border-radius: 5px;
+    border: solid;
+    width: 150px;
+    height: 60px;
+    font-family: myFirstFont;
+    color: #470019;
+  font-size: 25px;
+    background: #EFE6D5;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #EFE6D5 1%, #ededed 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #EFE6D5), color-stop(100%, #ededed));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #EFE6D5 1%, #ededed 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #EFE6D5 1%, #ededed 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #EFE6D5 1%, #ededed 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #EFE6D5 1%, #ededed 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EFE6D5', endColorstr='#ededed', GradientType=0);
+    /* IE6-9 */
+}
+  
+
+
+h1 {
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-left-style: none;
+  width: 40%;  
+  padding-top: 15px;
+  padding-bottom: 10px;
+  
+ font-family:
+   myFirstFont;
+  color:
+#470019;
+  font-size: 100px;
+}
+
+h2 {
+  font-family:
+   myFirstFont;
+  color:
+#470019;
+  font-size: 50px;
+}
+
+h3 {
+  font-family:
+   myFirstFont;
+  color:
+    #470019;
+  font-size: 25px;
+}
+
